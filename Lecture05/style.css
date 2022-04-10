@@ -1,0 +1,15 @@
+.parent{ 
+
+}
+.First{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: red; margin: 3%;
+}
+.Second{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: green; margin: 3%;
+}
+.Third{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: blue; margin: 3%;
+}
