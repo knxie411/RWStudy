@@ -1,15 +1,40 @@
-.parent{ 
+#box1
+{
+    position: absolute; 
+    left: 100px; 
+    top: 100px; 
+    width: 300px; 
+    height: 450px;
+    border: 5px solid red;
+    text-align: center;
+}
 
+#box2
+{
+    position: absolute; 
+    left: 450px; 
+    top: 100px; 
+    width: 300px; 
+    height: 450px;
+    border: 5px solid green;
+    text-align: center;
 }
-.first{
-    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
-    border-color: red; margin: 3%;
+
+#box3
+{
+    position: absolute; 
+    left: 800px; 
+    top: 100px; 
+    width: 300px; 
+    height: 450px;
+    border: 5px solid blue;
+     text-align: center;
 }
-.second{
-    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
-    border-color: green; margin: 3%;
-}
-.third{
-    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
-    border-color: blue; margin: 3%;
+
+.TowerOfTheHanoi
+{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
 }

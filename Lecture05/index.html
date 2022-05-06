@@ -4,43 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Hint</title>
-    <script src="Hanoi.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>하노이의 탑</title>
 </head>
 
 <body>
+    
 
     <p>하노이의 탑</p>
+   
+    <input id="reset" type="button" value="초기화" onclick="Init()">
 
-    <form id="form_box" method="get" action="form-action.html">
-        <!-- <label><input id="radio_toRight" type="radio" name="hanoi"></label>
-        <label><input id="radio_toLeft" type="radio" name="hanoi"></label> -->
+    <div class="TowerOfTheHanoi">
+       
+        <div id="box1" onclick="ClickBox1()">
+        first 
+        <p id="first"></p>
+        </div> 
         
-         <!-- <input id="button_reset" type="button" value="Move" onclick="Move();"> -->
-        <input id = "button_reset" type="button" value="초기화" onclick="Init();">
+        <div id="box2" onclick="ClickBox2()">
+         second 
+        <p id="second"></p>
+        </div>
 
-    </form>
+        <div id="box3" onclick="ClickBox3()">
+         third 
+        <p id="third"></p>
+        </div>
 
- 
-<div class="parent">
-    <div class="first" onclick = "RB(); ">
-        first
-        <!-- <div class = 'block'>
-            🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥<br>
-            🟨🟨🟨🟨🟨🟨🟨🟨🟨<br>
-            🟩🟩🟩🟩🟩🟩🟩<br>
-            🟦🟦🟦🟦🟦<br>
-            🟪🟪🟪<br>
-            ⬛️
-        </div> -->
+        <script src="Hanoi.js"> </script>
+
     </div>
-    <div class="second" onclick= "GB();" >second</div>
-
-    <div class="third" onclick= "BB();">third</div>
-
-</div>
-
-
+     
 </body>
 </html>
